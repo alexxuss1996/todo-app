@@ -15,7 +15,6 @@ const App = () => {
   return (
     <Layout>
       <AddTodoForm todos={todos} setTodos={setTodos} />
-
       <TodoList todos={todos} setTodos={setTodos} />
     </Layout>
   )
